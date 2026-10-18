@@ -1,0 +1,22 @@
+# Environnement Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Outils de test et de couverture
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Fichiers d'éditeur et système
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Données MNIST : fichiers volumineux, à télécharger séparément
+MNIST/*
+!MNIST/.gitkeep
